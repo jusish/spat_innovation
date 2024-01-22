@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
     <div>
-      This is the About Component
+      <img src="/assets/lines-4498.gif" className="w-full h-full" alt="" />
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

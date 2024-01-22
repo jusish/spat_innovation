@@ -3,9 +3,9 @@ import { AiOutlineSearch } from "react-icons/ai";
 
 const SideBlog = () => {
   return (
-    <div>
+    <div className="mr-44 ">
       <form
-        className="flex justify-between gap-4 items-center max-w-[530px] w-full  px-6 py-2
+        className="flex justify-between gap-4 items-center max-w-[530px] border pr-2 pl-5 py-2
           rounded-full text-black bg-white text-2xl"
       >
         <div>
@@ -17,12 +17,11 @@ const SideBlog = () => {
         </div>
         <div>
           <button>
-            <div className="flex flex-row items-center gap-4 py-2 pl-4 pr-2 rounded-full bg-mycolor">
-              <p className="text-white text-[19.39px] font-[700]">Subscribe</p>
+            <div className="flex items-center gap-4 py-2 pl-2 pr-2 rounded-full bg-mycolor">
               <AiOutlineSearch
                 size={30}
-                className="p-2 bg-white rounded-full icon"
-                style={{ color: "black" }}
+                className="p-2 border-white rounded-full bg-mycolor icon"
+                style={{ color: "white" }}
               />
             </div>
           </button>
@@ -31,7 +30,7 @@ const SideBlog = () => {
 
       <div>
         <div>
-          <h1>Recent Posts</h1>
+          <h1 className="text-">Recent Posts</h1>
           <p>Impact of Accessibility of handy Services</p>
         </div>
 
@@ -76,10 +75,9 @@ const SideBlog = () => {
         </div>
 
         <div>
-            <button>Uncategorized</button>
-            <button>Uncategorized</button>
+          <button>Uncategorized</button>
+          <button>Uncategorized</button>
         </div>
-        
       </div>
     </div>
   );
