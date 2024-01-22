@@ -5,7 +5,7 @@ const What = () => {
     <div className="block w-[544.76px] mx-44 mt-20">
       <div>
         <p className="font-semibold text-moregray">
-          <span className="text-3xl"> &bull;</span> WHO WE ARE
+          <span className="text-3xl"> &bull;</span> WHAT WE DO
         </p>
       </div>
       <div className="text-[38.77px] font-bold text-black">
