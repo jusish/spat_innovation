@@ -14,6 +14,9 @@ module.exports = {
       black: "#000",
       moregray: "#C4C4C4",
       textgray: "#7C7C7C",
+      gradient1: '#1B8036',
+      gradient2: '#083F1AEB',
+      gradient3: '#083F1ADB'
     },
   },
   plugins: [],
