@@ -1,13 +1,8 @@
 import React from "react";
 
-const Products = () => {
+const Urbannft = () => {
   return (
-    <div className="mt-24 mx-44">
-      <div className="flex items-center justify-center">
-        <h1 className=" text-mycolor text-[38.77px] font-[700]">
-          Our Products
-        </h1>
-      </div>
+    <div>
       <div className="flex mt-20 gap-96">
         <div className="w-[544.19px]">
           <h1 className=" text-[38.77px] font-[700]">Setroman</h1>
@@ -35,4 +30,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default Urbannft;

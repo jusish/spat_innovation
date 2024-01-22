@@ -3,6 +3,7 @@ import Hero from "../Hero";
 import Who from "../Who";
 import What from "../What";
 import Products from "../Products";
+import Urbannft from "../Urbannft";
 
 const Home = () => {
   return (
@@ -11,6 +12,8 @@ const Home = () => {
       <Who />
       <What />
       <Products />
+      <hr className="my-20 mx-44 border-textgray" />
+      <Urbannft />
     </div>
   );
 };

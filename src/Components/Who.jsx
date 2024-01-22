@@ -2,7 +2,7 @@ import React from "react";
 
 const Who = () => {
   return (
-    <div className="flex items-center gap-40 mt-20 mx-44">
+    <div className="flex items-center gap-64 mt-20 mx-44">
       <div>
         <img src="/assets/roundedimage.png" alt="rounded" />
       </div>
