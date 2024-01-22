@@ -16,7 +16,7 @@ const Home = () => {
       <Products />
       <hr className="my-24 mx-44 border-textgray" />
       <Urbannft />
-      <hr className="my-24 mx-44 border-textgray" />
+      <hr className="my-24 mb-24 mt-44 border-textgray" />
       <Faqs />
       <Footer />
     </div>
