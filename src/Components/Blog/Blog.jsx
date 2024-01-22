@@ -1,6 +1,7 @@
 import React from "react";
 import BlogList from "./BlogList";
 import Footer from "../Footer";
+import SideBlog from "./SideBlog";
 
 const Blog = () => {
   return (
@@ -10,9 +11,16 @@ const Blog = () => {
           Blog
         </h1>
       </div>
-      <div>
-        <BlogList />
+
+      <div className="flex">
+        <div>
+          <BlogList />
+        </div>
+        <div>
+          <SideBlog />
+        </div>
       </div>
+
       <Footer />
     </div>
   );
