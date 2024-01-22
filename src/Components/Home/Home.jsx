@@ -5,6 +5,7 @@ import What from "../What";
 import Products from "../Products";
 import Urbannft from "../Urbannft";
 import Faqs from "../Faqs";
+import Footer from "../Footer";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Urbannft />
       <hr className="my-24 mx-44 border-textgray" />
       <Faqs />
+      <Footer />
     </div>
   );
 };

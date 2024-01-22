@@ -1,5 +1,5 @@
 import React from "react";
-
+import {AiOutlineSearch} from 'react-icons/ai';
 const Faqs = () => {
   return (
     <div>
@@ -14,7 +14,25 @@ const Faqs = () => {
             <img src="/assets/news.png" alt="news" className="" />
         </div>
         <p className="text-[25.85px] font-[700]">Subcribe to our Newsletter</p>
-        <input type="text" className="" />
+        <form
+          className='flex justify-between items-center max-w-[100px] mx-auto w-full border p-1
+          rounded-md text-black bg-gray-100/90'
+        >
+          <div>
+            <input
+              className='bg-transparent w-[200px] sm:w-[400px] font-[Poppins] focus:outline-none
+                  '
+              type='text'
+              placeholder='Search Destinations'
+            />
+          </div>
+          <div>
+            <button className="flex flow-row">
+              <p>Subscribe</p>
+              <AiOutlineSearch size={20} className='bg-black' style={{color: '#ffffff'}} />
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   );

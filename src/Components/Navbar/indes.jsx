@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -10,31 +10,31 @@ const Navbar = () => {
       <div className="flex items-center justify-center flex-grow">
         <ul className="flex space-x-20 font-semibold text-{19.39px}">
           <li className="hover:text-mycolor">
-            <NavLink to="/" className="text-black">
+            <Link to="/" className="text-black">
               Home
-            </NavLink>
+            </Link>
           </li>
 
           <li className="hover:text-mycolor">
-            <NavLink to="/about" className="text-black">
-              About us
-            </NavLink>
-          </li>
-          <li className="hover:text-mycolor">
-            <NavLink to="/portifolio" className="text-black">
-              Portifolio
-            </NavLink>
-          </li>
-
-          <li className="hover:text-mycolor">
-            <NavLink to="/profile" className="text-black">
-              Management profile
-            </NavLink>
-          </li>
-          <li className="hover:text-mycolor">
-            <NavLink to="/blog" className="text-black">
+            <Link to="/blog" className="text-black">
               Blog
-            </NavLink>
+            </Link>
+          </li>
+          <li className="hover:text-mycolor">
+            <Link to="/about" className="text-black">
+              About us
+            </Link>
+          </li>
+          <li className="hover:text-mycolor">
+            <Link to="/portifolio" className="text-black">
+              Portifolio
+            </Link>
+          </li>
+
+          <li className="hover:text-mycolor">
+            <Link to="/profile" className="text-black">
+              Management profile
+            </Link>
           </li>
         </ul>
       </div>
