@@ -1,6 +1,6 @@
 import React from "react";
-import { AiOutlineSearch } from "react-icons/ai";
 import { FaAngleDown } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa6";
 const Faqs = () => {
   return (
     <div>
@@ -13,7 +13,7 @@ const Faqs = () => {
         </h1>
       </div>
 
-      <div className="flex items-center justify-center gap-10 px-5 py-[20px] my-10 rounded-[50px] mx-44 bg-gradient-to-r from-gradient1 to-gradient3 text-white">
+      <div className="flex items-center justify-center gap-10  py-[20px] my-10 rounded-[50px] mx-44 bg-gradient-to-r from-gradient1 to-gradient3 text-white">
         <div>
           <img src="/assets/news.png" alt="news" className="" />
         </div>
@@ -24,21 +24,21 @@ const Faqs = () => {
         >
           <div>
             <input
-              className="bg-transparent w-[300px] sm:w-[200px] focus:outline-none"
+              className=" w-[300px] sm:w-[200px]"
               type="text"
               placeholder="Enter email address"
             />
           </div>
           <div>
             <button>
-              <div className="flex flex-row items-center gap-4 py-2 pl-4 pr-2 rounded-full bg-mycolor">
+              <div className="flex flex-row items-center gap-2 py-2 pl-4 pr-2 rounded-full bg-mycolor">
                 <p className="text-white text-[19.39px] font-[700]">
                   Subscribe
                 </p>
-                <AiOutlineSearch
+                <FaArrowRight
                   size={30}
-                  className="p-2 bg-white rounded-full icon"
-                  style={{ color: "black" }}
+                  className="p-1 bg-white rounded-full icon"
+                  style={{ color: "green" }}
                 />
               </div>
             </button>
