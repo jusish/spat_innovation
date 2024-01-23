@@ -3,24 +3,24 @@ import { AiOutlineSearch } from "react-icons/ai";
 
 const SideBlog = () => {
   return (
-    <div className="mr-44 ">
+    <div className="mr-44 w-[249.61px] justify-center items-center">
       <form
-        className="flex justify-between gap-4 items-center max-w-[530px] border pr-2 pl-5 py-2
-          rounded-full text-black bg-white text-2xl"
+        className="flex justify-between gap-4 items-center max-w-[250px] border border-bordergray pr-2 pl-5 py-2
+          rounded-full  text-bordergray bg-white text-2xl mb-10"
       >
         <div>
           <input
-            className="bg-transparent w-[300px] sm:w-[200px] focus:outline-none"
+            className="bg-transparent w-[150px] sm:w-[100px] focus:outline-none"
             type="text"
-            placeholder="Enter email address"
+            placeholder="Search..."
           />
         </div>
         <div>
           <button>
             <div className="flex items-center gap-4 py-2 pl-2 pr-2 rounded-full bg-mycolor">
               <AiOutlineSearch
-                size={30}
-                className="p-2 border-white rounded-full bg-mycolor icon"
+                size={20}
+                className="border-white rounded-full bg-mycolor icon"
                 style={{ color: "white" }}
               />
             </div>
@@ -29,52 +29,90 @@ const SideBlog = () => {
       </form>
 
       <div>
-        <div>
-          <h1 className="text-">Recent Posts</h1>
-          <p>Impact of Accessibility of handy Services</p>
+        <div className="my-10">
+          <h1 className="text-[18.29px] font-[500] leading-[21.82px] mb-3">
+            Recent Posts
+          </h1>
+          <p className=" text-[12.8px] font-[500] leading-[15.28px]">
+            Impact of Accessibility of handy Services
+          </p>
         </div>
 
-        <div>
-          <h1>Recent Comments</h1>
-          <p>Masiyer Dakol on Impact of Accessibility of handy Services</p>
-          <p>Famodimu Segun on Impact of Accessibility of handy Services</p>
+        <div className="my-10">
+          <h1 className="text-[18.29px] font-[500] leading-[21.82px] mb-3">
+            Recent Comments
+          </h1>
+          <p className=" text-[12.8px] font-[500] leading-[15.28px] mb-2">
+            Masiyer Dakol on Impact of Accessibility of handy Services
+          </p>
+          <p className=" text-[12.8px] font-[500] leading-[15.28px]">
+            Famodimu Segun on Impact of Accessibility of handy Services
+          </p>
         </div>
 
-        <div>
-          <h1>Catetories</h1>
-          <p>Uncategorized 1</p>
-          <p>Uncategorized 2</p>
-          <p>Uncategorized 3</p>
+        <div className="my-10">
+          <h1 className="text-[18.29px] font-[500] leading-[21.82px] mb-3">
+            Catetories
+          </h1>
+          <p className=" text-[12.8px] font-[500] leading-[15.28px]">
+            Uncategorized 1
+          </p>
+          <p className=" text-[12.8px] font-[500] leading-[15.28px]">
+            Uncategorized 2
+          </p>
+          <p className=" text-[12.8px] font-[500] leading-[15.28px]">
+            Uncategorized 3
+          </p>
         </div>
 
-        <div>
-          <h1>Recent posts</h1>
-          <div>
+        <div className="my-10">
+          <h1 className="text-[18.29px] font-[500] leading-[21.82px] mb-5">
+            Recent posts
+          </h1>
+          <div className="flex gap-5 mb-3">
             <div>
-              <img src="/assets/image.png" alt="some" />
+              <img
+                className="rounded-lg w-[65px] h-[50px]"
+                src="/assets/image.png"
+                alt="some"
+              />
             </div>
             <div>
-              <h2>Impact of Accessibility of handy Services</h2>
-              <p>April 6,2020</p>
+              <h2 className=" text-[12.8px] font-[500] leading-[15.28px]">
+                Impact of Accessibility of handy Services
+              </h2>
+              <p className=" text-[10.8px] font-[500] text-smalltextgray">
+                April 6,2020
+              </p>
             </div>
           </div>
-          <div>
+          <div className="flex gap-5">
             <div>
-              <img src="/assets/desktop.png" alt="desktop" />
+              <img
+                className="rounded-lg w-[65px] h-[50px]"
+                src="/assets/image.png"
+                alt="desktop"
+              />
             </div>
             <div>
-              <h2>Impact of Accessibility of handy Services</h2>
-              <p>April 6,2020</p>
+              <h2 className=" text-[12.8px] font-[500] leading-[15.28px]">
+                Impact of Accessibility of handy Services
+              </h2>
+              <p className=" text-[10.8px] font-[500] text-smalltextgray">
+                April 6,2020
+              </p>
             </div>
           </div>
         </div>
 
-        <div>
-          <h1>Instagram</h1>
+        <div className="my-5">
+          <h1 className="text-[18.29px] font-[500] leading-[21.82px] mb-5">
+            Instagram
+          </h1>
           <img src="/assets/instagramposts.png" alt="" />
         </div>
 
-        <div>
+        <div className="flex gap-5">
           <button>Uncategorized</button>
           <button>Uncategorized</button>
         </div>

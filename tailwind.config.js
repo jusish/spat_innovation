@@ -19,6 +19,7 @@ module.exports = {
       gradient3: "#083F1ADB",
       smalltextgray: "#3D3D3D",
       formgray: "#6C6B6B",
+      bordergray: "#696969",
     },
   },
   plugins: [],
