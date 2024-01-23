@@ -3,7 +3,7 @@ import React from "react";
 const BlogCard = ({ title, blogimage }) => {
   return (
     <div>
-      <div className="w-[800.02px] mx-40 my-10 shadow-lg rounded-[13.71px] pb-10">
+      <div className="w-[800.02px] mx-40 my-10 shadow-lg hover:cursor-pointer rounded-[13.71px] pb-10">
         <img src={blogimage} alt="blog" className="h-auto mb-5" />
         <div className="w-auto mx-5">
           <div className="flex gap-5 mb-5 text-[12.8px] font-[500] text-smalltextgray">

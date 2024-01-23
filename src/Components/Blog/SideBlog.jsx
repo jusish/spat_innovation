@@ -5,12 +5,12 @@ const SideBlog = () => {
   return (
     <div className="mr-44 w-[249.61px] justify-center items-center">
       <form
-        className="flex justify-between gap-4 items-center max-w-[250px] border border-bordergray pr-2 pl-5 py-2
+        className="flex justify-between items-center max-w-[250px] border border-bordergray pr-2 pl-5 py-2
           rounded-full  text-bordergray bg-white text-2xl mb-10"
       >
         <div>
           <input
-            className="bg-transparent w-[150px] sm:w-[100px] focus:outline-none"
+            className="bg-transparent w-[300px] sm:w-[100px] focus:outline-none"
             type="text"
             placeholder="Search..."
           />
@@ -112,9 +112,18 @@ const SideBlog = () => {
           <img src="/assets/instagramposts.png" alt="" />
         </div>
 
-        <div className="flex gap-5">
-          <button>Uncategorized</button>
-          <button>Uncategorized</button>
+        <div>
+          <h1 className="text-[18.29px] font-[500] leading-[21.82px] mb-3">
+            Tags
+          </h1>
+          <div className="flex gap-5">
+            <button className="text-bordergray text-[12.8px] font-[500] bg-boxcolor py-1 px-2 rounded-md border border-bordergray">
+              Categorized
+            </button>
+            <button className="text-bordergray text-[12.8px] font-[500] bg-boxcolor py-1 px-2 rounded-md border border-bordergray">
+              Uncategorized
+            </button>
+          </div>
         </div>
       </div>
     </div>

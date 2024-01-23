@@ -20,6 +20,7 @@ module.exports = {
       smalltextgray: "#3D3D3D",
       formgray: "#6C6B6B",
       bordergray: "#696969",
+      boxcolor: "#E9F2FF",
     },
   },
   plugins: [],
