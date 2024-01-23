@@ -2,12 +2,16 @@ import React from "react";
 
 const Who = () => {
   return (
-    <div className="flex items-center gap-64 mt-20 mx-44">
-      <div>
-        <img src="/assets/roundedimage.png" alt="rounded" />
+    <div className="flex-col items-center block gap-64 mx-4 mt-20 md:block lg:flex md:flex-row lg:mx-44 md:mx-16">
+      <div className="order-2 md:order-1">
+        <img
+          src="/assets/roundedimage.png"
+          alt="rounded"
+          className="w-full md:w-auto md:max-h-full"
+        />
       </div>
 
-      <div className="block w-[544.76px]">
+      <div className="md:w-[544.76px] md:order-2 order-1">
         <div>
           <p className="font-semibold text-moregray">
             <span className="text-3xl"> &bull;</span> WHO WE ARE
