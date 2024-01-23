@@ -3,9 +3,9 @@ import { FaAngleDown } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa6";
 const Faqs = () => {
   return (
-    <div>
-      <div className="flex items-center justify-center mb-24">
-        <h1 className=" text-black text-[38.77px] font-[700] flex justify-center items-center gap-5">
+    <div className="px-4 mx-auto sm:px-6 lg:px-8">
+      <div className="flex items-center justify-center mb-6 md:mb-24">
+        <h1 className=" text-black text-center md:text-left text-2xl sm:text-4xl font-[700] flex justify-center items-center gap-5">
           Frequently asked questions
           <span>
             <FaAngleDown />

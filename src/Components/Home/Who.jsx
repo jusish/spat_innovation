@@ -13,17 +13,17 @@ const Who = () => {
 
       <div className="md:w-[544.76px] md:order-2 order-1">
         <div>
-          <p className="font-semibold text-moregray">
+          <p className="font-semibold text-center text-moregray md:text-left">
             <span className="text-3xl"> &bull;</span> WHO WE ARE
           </p>
         </div>
-        <div className="text-[38.77px] font-bold text-black">
+        <div className="md:text-[38.77px] text-[28px] md:text-left text-center font-bold text-black">
           <h1>
             We are a Team with Focus on Innovation and Improving Business
             processes, people, and systems
           </h1>
         </div>
-        <p className=" text-[25.85px] my-5 text-gray ">
+        <p className=" md:text-[25.85px] my-5 text-gray text-center md:text-left text-[19px] ">
           Spatium Innovation Hub is a thinking company on a mission to connect
           people and businesses with meaningful innovation, at scale.{" "}
         </p>
