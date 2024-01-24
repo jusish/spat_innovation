@@ -84,7 +84,7 @@ const Navbar = () => {
         </div>
       )}
 
-      <button className="px-4 py-2 hidden lg:block text-white bg-mycolor shadow-3xl rounded-3xl w-{151.85px} h-{52.77px} font-medium px-6 ">
+      <button className="px-4 py-2 hidden lg:block text-white bg-mycolor hover:shadow-3xl transition-shadow rounded-3xl w-{151.85px} h-{52.77px} font-medium px-6 ease-in-out">
         Contact us
       </button>
     </nav>
