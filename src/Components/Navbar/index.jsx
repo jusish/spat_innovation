@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="flex items-start">
         <img src="/assets/logo.png" alt="Logo" className="w-24 h-10" />
       </div>
-      <div className="items-center justify-center flex-grow hidden md:flex">
+      <div className="items-center justify-center flex-grow hidden lg:flex">
         <ul className="flex space-x-20 font-semibold text-{19.39px}">
           <li className="hover:text-mycolor">
             <Link to="/" className="text-black">
@@ -44,14 +44,14 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div className="flex items-center md:hidden">
+      <div className="flex items-center lg:hidden">
         <button onClick={toggleMenu}>
           <TiThMenu />
         </button>
       </div>
 
       {showMenu && (
-        <div className="absolute left-0 w-full bg-white shadow-md md:hidden top-20">
+        <div className="absolute left-0 w-full bg-white shadow-md top-20 lg:hidden">
           <ul className="flex flex-col items-center py-4 space-y-4 font-semibold text-19.39px">
             <li className="hover:text-mycolor">
               <Link to="/" className="text-black">
@@ -84,7 +84,7 @@ const Navbar = () => {
         </div>
       )}
 
-      <button className="px-4 py-2 text-white bg-mycolor shadow-3xl rounded-3xl w-{151.85px} h-{52.77px} font-medium px-6 ">
+      <button className="px-4 py-2 hidden lg:block text-white bg-mycolor shadow-3xl rounded-3xl w-{151.85px} h-{52.77px} font-medium px-6 ">
         Contact us
       </button>
     </nav>

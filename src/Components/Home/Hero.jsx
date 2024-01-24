@@ -3,8 +3,8 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-8 mx-4 mt-10 md:mt-20 lg:mt-40 md:flex-row md:justify-between md:mx-16 lg:mx-44">
-      <div className="text-center md:text-left">
-        <div className="text-3xl font-bold md:text-8xl text-mycolor">
+      <div className="text-center md:text-left w-[55%]">
+        <div className="text-4xl font-bold md:text-5xl lg:text-8xl text-mycolor">
           <h1>Next Generation</h1>
           <h1>Global Innovators</h1>
         </div>
@@ -15,8 +15,8 @@ const Hero = () => {
           Learn more
         </button>
       </div>
-      <div className="hidden md:block">
-        <img src="/assets/young.png" alt="young people" />
+      <div >
+        <img src="/assets/young.png" alt="young people" className="w-[200px] md:w-[300px] lg:min-w-[400px]" />
       </div>
     </div>
   );
