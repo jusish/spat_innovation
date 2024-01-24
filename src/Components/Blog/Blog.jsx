@@ -6,13 +6,13 @@ import SideBlog from "./SideBlog";
 const Blog = () => {
   return (
     <div>
-      <div className="flex items-center justify-center my-16">
-        <h1 className=" text-mycolor text-[69.98px] leading-[92.58px] font-[700]">
+      <div className="flex flex-row items-center justify-center my-16">
+        <h1 className=" text-mycolor text-[70px] leading-[90px] font-[700]">
           Blog
         </h1>
       </div>
 
-      <div className="flex">
+      <div className="flex flex-row items-center justify-center">
         <div>
           <BlogList />
         </div>

@@ -3,7 +3,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 
 const SideBlog = () => {
   return (
-    <div className="mr-44 w-[249.61px] justify-center items-center">
+    <div className="lg:max-w-[250px] lg:justify-center lg:items-center lg:block md:hidden hidden">
       <form
         className="flex justify-between items-center max-w-[250px] border border-bordergray pr-2 pl-5 py-2
           rounded-full  text-bordergray bg-white text-2xl mb-10"

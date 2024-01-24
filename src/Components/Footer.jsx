@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="flex flex-col items-center justify-center pt-10 pb-5 text-white bg-gradient-to-r from-gradient1 to-gradient3">
-      <div className="flex flex-col gap-8 mb:-5 lg:gap-24 md:gap-12 lg:flex-row">
-        <div className="lg:max-w-[350px] md:w-[200px]">
+      <div className="flex flex-col gap-8 mb-10 lg:gap-24 md:gap-12 lg:flex-row">
+        <div className="lg:max-w-[350px] md:w-[300px]">
           <p className="mb-5 font-[500] text-[19.39px]">About us</p>
           <a href="https://tailwindcss.com/docs/background-image#linear-gradients">
             <img src="/assets/spatlogo.png" alt="logo" />
@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/* <hr className="border-white" /> */}
+      <hr className="border-white" />
       <div className="flex flex-col items-center justify-center mt-5 md:flex-row">
         <p>Copyright 2020. Spatium Innovation Hub. All Rights Reserved</p>
       </div>
