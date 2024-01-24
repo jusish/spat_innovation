@@ -14,14 +14,14 @@ const Navbar = () => {
       </div>
       <div className="items-center justify-center flex-grow hidden lg:flex">
         <ul className="flex space-x-20 font-semibold text-{19.39px}">
-          <li className="hover:text-mycolor">
-            <Link to="/" className="text-black">
+          <li className="">
+            <Link to="/" className="text-black hover:text-mycolor ">
               Home
             </Link>
           </li>
 
           <li>
-            <Link to="/blog" className="text-black hover:text-mycolor">
+            <Link to="/blog" className="text-black hover:text-mycolor ">
               Blog
             </Link>
           </li>

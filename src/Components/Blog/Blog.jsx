@@ -12,7 +12,7 @@ const Blog = () => {
         </h1>
       </div>
 
-      <div className="flex flex-row items-center justify-center">
+      <div className="flex flex-row justify-center">
         <div>
           <BlogList />
         </div>

@@ -16,10 +16,10 @@ function App() {
         <Routes>
           <Route path="/" exact Component={Home}></Route>
           <Route path="/blog" exact Component={Blog}></Route>
-          <Route path="/blogDetail" exact Component={BlogDetail}></Route>
           <Route path="/about" exact Component={About}></Route>
           <Route path="/portifolio" exact Component={Portifolio}></Route>
           <Route path="/profile" exact Component={Profile}></Route>
+          <Route path='/blog/blogdetail' exact Component={BlogDetail}></Route>
         </Routes>
       </div>
     </Router>
