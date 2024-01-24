@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="flex flex-col items-center justify-center pt-10 pb-5 text-white bg-gradient-to-r from-gradient1 to-gradient3">
-      <div className="flex flex-col gap-8 mx-4 mb-10 md:flex-row md:mx-8 lg:mx-16">
-        <div className="md:w-[348.99px]">
+      <div className="flex flex-col gap-8 mb:-5 lg:gap-24 md:gap-12 lg:flex-row">
+        <div className="lg:max-w-[350px] md:w-[200px]">
           <p className="mb-5 font-[500] text-[19.39px]">About us</p>
           <a href="https://tailwindcss.com/docs/background-image#linear-gradients">
             <img src="/assets/spatlogo.png" alt="logo" />
@@ -21,7 +21,7 @@ const Footer = () => {
             <img src="/assets/Twitter.png" alt="Twitter" />
           </div>
         </div>
-        <div className="md:w-[348.99px]">
+        <div className="lg:max-w-[350px]">
           <h1 className="mb-10 font-[500] text-[19.39px]">Resources</h1>
           <div className="space-y-2 font-[400] text-[17.41px]">
             <p>Help center</p>
@@ -31,7 +31,7 @@ const Footer = () => {
             <p>Utility</p>
           </div>
         </div>
-        <div className="md:w-[348.99px]">
+        <div className="lg:max-w-[350px]">
           <h1 className="mb-10 font-[500] text-[19.39px]">Services</h1>
           <div className="space-y-2 font-[400] text-[17.41px]">
             <p>Software Development</p>
@@ -40,7 +40,7 @@ const Footer = () => {
             <p>UI/UX Design</p>
           </div>
         </div>
-        <div className="md:w-[348.99px]">
+        <div className="md:w-[350px]">
           <h1 className="mb-10 font-[500] text-[19.39px]">Quicklinks</h1>
           <div className="space-y-2 font-[400] text-[17.41px]">
             <p>Careers</p>
@@ -50,8 +50,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr className="border-white" />
-      <div className="flex items-center justify-center mt-5">
+      {/* <hr className="border-white" /> */}
+      <div className="flex flex-col items-center justify-center mt-5 md:flex-row">
         <p>Copyright 2020. Spatium Innovation Hub. All Rights Reserved</p>
       </div>
     </div>
