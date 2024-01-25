@@ -1,10 +1,12 @@
-import React from "react";
+// import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const BlogCard = ({ id, title, blogimage }) => {
+  // const [cardId, setCardId] = useState(id);
+
   return (
     <div>
-      <Link to={`/blog/blogdetail`}>
+      <Link to={`/blog/blogdetail/${id}`}>
         <div className="lg:w-[800px] md:w-[600px] md:justify-center md:items-center md:flex md:flex-col mx-5 lg:mx-20 md:mx-20 mb-10 shadow-lg hover:cursor-pointer rounded-[12px] pb-10">
           <img src={blogimage} alt="blog" className="h-auto mb-5" />
           <div className="w-auto mx-5">
