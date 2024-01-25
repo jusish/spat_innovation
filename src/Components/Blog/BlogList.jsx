@@ -17,7 +17,12 @@ const BlogList = () => {
   return (
     <div className="flex flex-col">
       {cardsData.map((card, index) => (
-        <BlogCard id={card.id} key={index} title={card.title} blogimage={card.blogimage} />
+        <BlogCard
+          id={card.id}
+          key={index}
+          title={card.title}
+          blogimage={card.blogimage}
+        />
       ))}
     </div>
   );
